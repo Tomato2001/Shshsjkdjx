@@ -1,0 +1,499 @@
+local  OrionLib  =  loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+
+local  Window  =  OrionLib:MakeWindow({Name  =  "BackroomsHub(⁠๑⁠•⁠﹏⁠•⁠)",  HidePremium  =  false,  SaveConfig  =  true,  ConfigFolder  =  "OrionTest"})
+
+
+
+local  Tab  =  Window:MakeTab({
+
+Name  =  "Teleport  in  levels",
+
+Icon  =  "rbxassetid://4483345998",
+
+PremiumOnly  =  false
+
+})
+
+
+
+--  Здесь  добавлены  новые  кнопки
+
+
+Tab:AddButton({
+ Name  =  "The  Hub",
+ Callback  =  function()
+      game:GetService("TeleportService"):Teleport(9629416026)
+ end
+})
+
+Tab:AddButton({
+ Name  =  "The  Sub  Hub",
+ Callback  =  function()
+      game:GetService("TeleportService"):Teleport(15624109148)
+ end
+})
+
+Tab:AddButton({
+ Name  =  "The  Negative  hub",
+ Callback  =  function()
+      game:GetService("TeleportService"):Teleport(14694582489)
+ end
+})
+
+--  Остальные  имена,  отсортированные  по  убыванию  чисел  в  названиях
+Tab:AddButton({
+Name  =  "Level  3999",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14065256334)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  666  (2)",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14065256624)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  666  (1)",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9627132198)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  389",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14996251627)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  332",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9627132064)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  244",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12342814981)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  231",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15038464344)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  188",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306011556)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  94",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12842021350)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  37.835",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306033305)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  37",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11088977319)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  11",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11305929744)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  4",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9600038525)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  0.null",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15475479748)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  0.!",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15482569451)
+end
+})
+
+Tab:AddButton({
+Name  =  "level  922337....",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(10920595079)
+end
+})
+
+Tab:AddButton({
+Name  =  "ARCADE!",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12991169608)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  Safe  Place",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306028936)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  Neon  Express",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15054837456)
+end
+})
+
+Tab:AddButton({
+Name  =  "TH3  SH4DY  GR3Y",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306058831)
+end
+})
+
+Tab:AddButton({
+Name  =  "TH3  SH4DY  GR3Y  v2",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306078320)
+end
+})
+
+Tab:AddButton({
+Name  =  "TH3  SH4DY  GR3Y  v3",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(11306058308)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  bonus  room",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9477174047)
+end
+})
+
+Tab:AddButton({
+Name  =  "The Basement",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12424239104)
+end
+})
+
+Tab:AddButton({
+Name  =  "Secret  level  3",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15176737457)
+end
+})
+
+Tab:AddButton({
+Name  =  "Ice  rooms",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12423637768)
+end
+})
+
+Tab:AddButton({
+Name  =  "Pitfalls",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(10914183295)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  ❗",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12357092315)
+end
+})
+
+Tab:AddButton({
+Name  =  "Level  ❗.❗",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14701187003)
+end
+})
+
+Tab:AddButton({
+Name  =  "The Promised Land 👿",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15719071802)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  attic",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12424180323)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  end",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(10915168318)
+end
+})
+
+Tab:AddButton({
+Name  =  "Blackout",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12332126213)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  broken",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15476917954)
+end
+})
+
+Tab:AddButton({
+Name  =  "Snack  room",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14964354853)
+end
+})
+
+Tab:AddButton({
+Name  =  "Secret  level  4",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15176737510)
+end
+})
+
+Tab:AddButton({
+Name  =  "Pipe  level",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12480086724)
+end
+})
+
+Tab:AddButton({
+Name  =  "Kitty  House",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9600038947)
+end
+})
+
+Tab:AddButton({
+Name  =  "After  party",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(14687775444)
+end
+})
+
+Tab:AddButton({
+Name  =  "The  blue  channel",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12480090095)
+end
+})
+
+Tab:AddButton({
+Name  =  "Void",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(15401149177)
+end
+})
+
+Tab:AddButton({
+Name  =  "BAD  ENDING",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(10921820211)
+end
+})
+
+Tab:AddButton({
+Name  =  "Windows",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(10970050737)
+end
+})
+
+local  Tab  =  Window:MakeTab({
+	Name  =  "Useful  features",
+	Icon  =  "rbxassetid://4483345998",
+	PremiumOnly  =  false
+})
+
+Tab:AddTextbox({
+	Name  =  "Change  speed",
+	Default  =  "input",
+	TextDisappear  =  true,
+	Callback  =  function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed  =  Value
+	end	    
+})
+
+Tab:AddButton({
+	Name  =  "Kill  all  npcs",
+	Callback  =  function()
+            		sethiddenproperty(game.Players.LocalPlayer,  "SimulationRadius",  112412400000)
+sethiddenproperty(game.Players.LocalPlayer,  "MaxSimulationRadius",  112412400000)
+for  i,d  in  pairs(game.Workspace:GetDescendants())  do
+        if  d.ClassName  ==  'Humanoid'  and  d.Parent.Name  ~=  game.Players.LocalPlayer.Name  then
+                d.Health  =  0
+        end
+end
+    	end        
+})
+
+Tab:AddButton({
+  Name  =  "Obby  godmode",
+  Callback  =  function()
+                local  library  =  loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib",  true))()
+
+local  ui  =  library:Tab("Obby  Godmode")
+
+ui:Toggle("Godmode",  function(arg)
+  local  player  =  game:GetService("Players").LocalPlayer
+while  task.wait()  do
+local  parts  =  workspace:GetPartBoundsInRadius(player.Character:WaitForChild("HumanoidRootPart").Position,  10)
+for  _,  part  in  ipairs(parts)  do
+part.CanTouch  =  arg
+end
+end
+end)
+            end
+})
+
+Tab:AddButton({
+	Name  =  "Verify  level",
+	Callback  =  function()
+            		local  plr  =  game.Players.LocalPlayer.Character.Head
+for  i,  v  in  pairs(game:GetService("Workspace"):GetDescendants())  do
+                if  v.Name  ==  "TouchInterest"  and  v.Parent  then
+                firetouchinterest(plr,  v.Parent,  0)
+        end
+end
+    	end        
+})
+
+Tab:AddButton({
+	Name  =  "Focus",
+	Callback  =  function()
+            		local  lp  =  game.Players.LocalPlayer
+local  mouse  =  lp:GetMouse()
+
+local  ft  =  Instance.new("Tool")
+ft.Name  =  "Focus"
+ft.RequiresHandle  =  false
+ft.Parent  =  lp.Backpack
+ft.Activated:Connect(function()
+  local  obj  =  mouse.Target
+  if  obj:IsA("BasePart")  or  obj:IsA("Part")  or  obj:IsA("MeshPart")  or  obj:IsA("CornerWedgePart")  or  obj:IsA("TrussPart")  or  obj:IsA("WedgePart")  then
+    if  not  obj.Anchored  then
+            local  bambam  =  Instance.new("BodyAngularVelocity")
+            bambam.Name  =  "BAM  BAM  AHAHHAHAHHAHAH"
+            bambam.Parent  =  obj
+            bambam.AngularVelocity  =  Vector3.new(99999999,99999999,99999999)
+            bambam.MaxTorque  =  Vector3.new(math.huge,math.huge,math.huge)
+            bambam.P  =  math.huge
+          end
+  end
+end)
+    	end        
+})
+
+Tab:AddButton({
+	Name  =  "Fullbright",
+	Callback  =  function()
+            		pcall(function()
+        local  lighting  =  game:GetService("Lighting");
+        lighting.Ambient  =  Color3.fromRGB(255,  255,  255);
+        lighting.Brightness  =  1;
+        lighting.FogEnd  =  1e10;
+        for  i,  v  in  pairs(lighting:GetDescendants())  do
+                if  v:IsA("BloomEffect")  or  v:IsA("BlurEffect")  or  v:IsA("ColorCorrectionEffect")  or  v:IsA("SunRaysEffect")  then
+                        v.Enabled  =  false;
+                end;
+        end;
+        lighting.Changed:Connect(function()
+                lighting.Ambient  =  Color3.fromRGB(255,  255,  255);
+                lighting.Brightness  =  1;
+                lighting.FogEnd  =  1e10;
+        end);
+        spawn(function()
+                local  character  =  game:GetService("Players").LocalPlayer.Character;
+                while  wait()  do
+                        repeat  wait()  until  character  ~=  nil;
+                        if  not  character.HumanoidRootPart:FindFirstChildWhichIsA("PointLight")  then
+                                local  headlight  =  Instance.new("PointLight",  character.HumanoidRootPart);
+                                headlight.Brightness  =  1;
+                                headlight.Range  =  60;
+                        end;
+                end;
+        end);
+end)
+
+    	end        
+})
+
+Tab:AddTextbox({
+	Name  =  "Game  teleport",
+	Default  =  "id",
+	TextDisappear  =  true,
+	Callback  =  function(Value)
+		game:GetService("TeleportService"):Teleport(Value)
+	end	    
+})
+
+local  Tab  =  Window:MakeTab({
+	Name  =  "MEGA HACK",
+	Icon  =  "rbxassetid://4483345998",
+	PremiumOnly  =  false
+})
+
+Tab:AddButton({
+Name  =  "GOD MODE/CRASH SERVER/999 LITERS OF ALMOND WATER",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(12357093685)
+end
+})
+
+local  Tab  =  Window:MakeTab({
+	Name  =  "COME HERE =)",
+	Icon  =  "rbxassetid://4483345998",
+	PremiumOnly  =  false
+})
+
+Tab:AddButton({
+Name  =  "Level  Fun  =)",
+Callback  =  function()
+game:GetService("TeleportService"):Teleport(9528620143)
+end
+})
